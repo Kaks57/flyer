@@ -83,8 +83,8 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-3 text-brand-blue flex-shrink-0 mt-0.5" />
                 <span className="text-gray-300">
-                  15 Rue de l'Innovation<br />
-                  75011 Paris, France
+               25 Rue de Ponthieu  <br />
+                  75008 Paris, France
                 </span>
               </li>
               <li className="flex items-center">
