@@ -96,7 +96,7 @@ const Footer = () => {
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-brand-blue flex-shrink-0" />
                 <a href="mailto:contact@ryanol.fr" className="text-gray-300 hover:text-white transition-colors">
-                  contact@ryanol.fr
+                  ryanlainoh@gmail.com
                 </a>
               </li>
             </ul>
