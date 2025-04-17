@@ -16,7 +16,7 @@ const Navbar = () => {
               <img 
                 src="/logo.jpeg" 
                 alt="Ryanol Logo" 
-                className="h-10 w-10 mr-3" 
+                className="h-10 w-28 mr-3" 
               />
             </Link>
           </div>
