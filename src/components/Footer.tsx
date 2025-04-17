@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-display font-bold mb-6">
               <img 
-                src="/IMG_1482.jpeg"
+                src="/IMG_1483.jpeg"
                 alt="Ryanol logo" 
                 className="inline h-[1.2em] align-middle"
               />
