@@ -1,21 +1,20 @@
-
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="bg-brand-gray-dark text-white pt-16 pb-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div>
             <h3 className="text-2xl font-display font-bold mb-6">
-  <img 
-    src="/logo.jpeg" 
-    alt="Ryanol logo" 
-    className="inline h-[1.2em] align-middle"
-  />
-</h3>
+              <img 
+                src="/logo.jpeg" 
+                alt="Ryanol logo" 
+                className="inline h-[1.2em] align-middle"
+              />
+            </h3>
 
             <p className="text-gray-300 mb-6">
               Experts en création de flyers impactants et de sites web professionnels. Nous donnons vie à vos idées depuis 2015.
@@ -35,7 +34,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-6">Services</h4>
             <ul className="space-y-3">
@@ -56,7 +55,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-6">Liens Utiles</h4>
             <ul className="space-y-3">
@@ -77,7 +76,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h4 className="text-lg font-semibold mb-6">Contact</h4>
             <ul className="space-y-4">
@@ -103,11 +102,16 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-700 pt-8 mt-8">
           <div className="flex flex-col md:flex-row md:justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} Ryanol@. Tous droits réservés.
+            <p className="text-gray-400 text-sm mb-4 md:mb-0 flex items-center">
+              &copy; {currentYear}&nbsp;
+              <img 
+                src="/logo.jpeg" 
+                alt="Ryanol logo" 
+                className="inline h-[1em] align-baseline"
+              />. Tous droits réservés.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
