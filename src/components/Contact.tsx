@@ -180,7 +180,7 @@ const Contact = () => {
                   <h3 className="font-semibold text-xl mb-1">Email</h3>
                   <p className="opacity-90">Réponse sous 24h ouvrées</p>
                   <a href="mailto:contact@webcraftstudio.fr" className="text-white font-semibold hover:underline">
-                    contact@webcraftstudio.fr
+           ryanlainoh@gmail.com
                   </a>
                 </div>
               </div>
