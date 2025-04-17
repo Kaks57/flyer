@@ -9,9 +9,14 @@ const Footer = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           <div>
-            <h3 className="text-2xl font-display font-bold mb-6 bg-gradient-to-r from-brand-blue to-brand-violet bg-clip-text text-transparent">
-              Ryanol<span className="text-brand-violet-light">@</span>
-            </h3>
+            <h3 className="text-2xl font-display font-bold mb-6">
+  <img 
+    src="/logo.jpeg" 
+    alt="Ryanol logo" 
+    className="inline h-[1.2em] align-middle"
+  />
+</h3>
+
             <p className="text-gray-300 mb-6">
               Experts en création de flyers impactants et de sites web professionnels. Nous donnons vie à vos idées depuis 2015.
             </p>
