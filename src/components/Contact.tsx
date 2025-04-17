@@ -165,7 +165,7 @@ const Contact = () => {
                   <h3 className="font-semibold text-xl mb-1">Téléphone</h3>
                   <p className="opacity-90">Disponible du lundi au vendredi, 9h-18h</p>
                   <a href="tel:+33123456789" className="text-white font-semibold hover:underline">
-                    +33 1 23 45 67 89
++33 7 58 54 29 08
                   </a>
                 </div>
               </div>
