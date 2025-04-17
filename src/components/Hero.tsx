@@ -19,16 +19,16 @@ const Hero = () => {
       </div>
 
       {/* CONTENU PAR DESSUS */}
-      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row items-center">
-          {/* Texte à gauche */}
-          <div className="lg:w-1/2 mb-10 lg:mb-0">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6">
-              <span className="block">Donnez vie à vos idées avec</span>
-              <span className="bg-gradient-to-r from-brand-blue to-brand-violet bg-clip-text text-transparent">
-                Ryanol<span className="text-brand-violet-light">@</span>
-              </span>
-            </h1>
+     <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6">
+  <span className="block">Donnez vie à vos idées avec</span>
+  <span className="bg-gradient-to-r from-brand-blue to-brand-violet bg-clip-text text-transparent">
+    <img 
+      src="/logo.jpeg" 
+      alt="Ryanol logo" 
+      className="inline h-[1em] align-baseline"
+    />
+  </span>
+</h1>
             <p className="text-lg md:text-xl text-brand-gray-dark mb-8 max-w-lg">
               Nous créons des flyers percutants et des sites web professionnels pour faire briller votre entreprise.
             </p>
