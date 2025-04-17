@@ -24,7 +24,7 @@ const Hero = () => {
               <span className="block">Donnez vie à vos idées avec</span>
               <span className="bg-gradient-to-r from-brand-blue to-brand-violet bg-clip-text text-transparent">
                 <img
-                  src="/LOGO.ai"
+                  src="/IMG_1482.jpeg"
                   alt="Ryanol logo"
                   className="inline h-[1em] align-baseline"
                 />
