@@ -14,13 +14,10 @@ const Navbar = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
-                src="/logo.png" 
+                src="/logo.jpeg" 
                 alt="Ryanol Logo" 
                 className="h-10 w-10 mr-3" 
               />
-              <span className="text-2xl font-display font-bold bg-gradient-to-r from-brand-blue to-brand-violet bg-clip-text text-transparent">
-                Ryanol<span className="text-brand-violet-light">@</span>
-              </span>
             </Link>
           </div>
           
