@@ -58,11 +58,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute -top-10 -left-10 w-24 h-24 bg-brand-violet-light rounded-full opacity-50 blur-xl"></div>
               <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-brand-blue rounded-full opacity-30 blur-xl"></div>
-              <img
-                src="/image-hero.jpg"
-                alt="Design de flyers et sites web"
-                className="w-full h-auto rounded-2xl shadow-lg z-10 relative"
-              />
+            
             </div>
           </div>
         </div>
