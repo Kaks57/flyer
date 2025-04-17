@@ -6,10 +6,21 @@ const Hero = () => {
   return (
     <section
       id="accueil"
-      className="pt-28 pb-20 bg-[url('/background.jpg')] bg-cover bg-center bg-no-repeat"
+      className="relative pt-28 pb-20"
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col lg:flex-row items-center bg-white/80 backdrop-blur-md p-8 rounded-2xl shadow-lg">
+      {/* IMAGE DE FOND */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="/fond.jpeg"
+          alt="Fond Hero"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-white/80 backdrop-blur-sm"></div>
+      </div>
+
+      {/* CONTENU PAR DESSUS */}
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col lg:flex-row items-center">
           {/* Texte à gauche */}
           <div className="lg:w-1/2 mb-10 lg:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-6">
@@ -48,7 +59,7 @@ const Hero = () => {
               <div className="absolute -top-10 -left-10 w-24 h-24 bg-brand-violet-light rounded-full opacity-50 blur-xl"></div>
               <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-brand-blue rounded-full opacity-30 blur-xl"></div>
               <img
-                src="/fond.jpeg"
+                src="/image-hero.jpg"
                 alt="Design de flyers et sites web"
                 className="w-full h-auto rounded-2xl shadow-lg z-10 relative"
               />
